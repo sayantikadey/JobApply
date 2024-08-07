@@ -1,1 +1,1 @@
-# JobApply
+The Job Application Form project is a responsive web application developed using HTML, CSS, and JavaScript, designed to streamline the application process for potential candidates. It features a user-friendly interface that allows applicants to input their personal details, work experience, and skills efficiently, ensuring a smooth submission experience.
