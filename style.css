@@ -1,0 +1,92 @@
+h1
+{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 5px peru ;
+}
+body
+{
+    font-family:'Courier New', Courier, monospace;
+    background-image: url("Images/IMG.jpg") ;
+    background-attachment:fixed;
+    font-variant: small-caps;
+    
+}
+fieldset
+{
+    background-color: rgba(253, 188, 142, 0.5);
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+}
+fieldset legend
+{
+    padding: 12px 25px;
+    font-size:  30px;
+    font-variant: small-caps ;
+    font-weight: bold;
+    border: 2px dashed black;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 10px black;
+}
+table
+{
+    width: 100%;
+}
+table td
+{
+    font-size: 30px;
+    text-shadow: black;
+    padding: 5px;
+    font-weight: bold;
+    margin: 20px;
+}
+table th
+{
+    text-align: left;
+    font-size: 30px;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="month"],
+select{
+    font-size: 15px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+textarea{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 210px;
+    border: 2px solid black;
+    
+}
+.button{
+    padding: 12px 25px;
+    font-size:  30px;
+    font-variant: small-caps ;
+    border: 2px solid black;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 10px peru;
+    right:50px;
+    margin: 20px 150px 20px;
+    background: transparent;
+}
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+input[type="month"]:focus,
+input[type="radio"]:focus,
+select:focus,
+textarea:focus{
+    background-color: peru;
+    box-shadow: 0 0 10px darkred;
+}
